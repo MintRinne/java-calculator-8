@@ -24,5 +24,4 @@ public class StringParser {
         //기본 기분자
         return strInput.split(strDelimiters);
     }
-
 }

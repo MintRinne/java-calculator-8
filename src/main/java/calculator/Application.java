@@ -11,7 +11,7 @@ public class Application {
 
         //stringCalculator의 결과를 출력한다.
         try {
-            int intResult = StringCaculator.add(strInput);
+            int intResult = StringCalculator.add(strInput);
             System.out.println("결과 : " + intResult);
         } catch (IllegalArgumentException e) {
             System.out.println("잘못된 입력입니다." + e.getMessage());
